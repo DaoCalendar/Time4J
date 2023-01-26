@@ -317,11 +317,10 @@ public final class CalendarText {
         MissingResourceException tmpMre = null;
 
         try {
-            StringBuilder path = new StringBuilder("names/");
-            path.append(calendarType);
-            path.append("/");
-            path.append(calendarType);
-            PropertyBundle rb = PropertyBundle.load(path.toString(), locale);
+            String path = "names/" + calendarType +
+                    "/" +
+                    calendarType;
+            PropertyBundle rb = PropertyBundle.load(path, locale);
 
             for (String key : rb.keySet()) {
                 map.put(key, rb.getString(key));

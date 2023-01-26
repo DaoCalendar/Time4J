@@ -18,7 +18,7 @@
     <licenses>
         <license>
             <name>GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1, February 1999</name>
-            <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+            <url>https://www.gnu.org/licenses/lgpl-2.1.html</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -210,7 +210,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <jdk.version>1.8</jdk.version>
+        <jdk.version>19</jdk.version>
     </properties>
 
 </project>
